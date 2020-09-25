@@ -1,0 +1,27 @@
+/* Change entire page font color and font family */
+* {
+    color: rgb(41, 156, 147); 
+    font-family: 'Coiny', cursive;
+    
+}
+
+/* Change nav bar backgroung color */
+.bg-color {
+   background-color: rgb(35, 185, 173);
+}
+
+/* Change the listed properties to all p tags */
+p {
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Kurale', serif; 
+    color: rgb(41, 156, 147); 
+}
+
+/* Set dimension, padding, and margin for the picture (Horiseon portifolio page) with this class */
+.img-port {
+    height: 250px;
+    width: 325px;
+    padding: 10px;
+    margin-top: 10px;
+}
