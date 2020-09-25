@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <!-- meta tag to ensure things scale correctly across devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Camila</title>
+
+    <!-- Link to Bootstrap style sheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- Link to favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/images/Camila_favicon.png">
+
+    <!-- Link to Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Kurale&display=swap" rel="stylesheet">
+
+    <!-- Link to Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/402fd511ff.js" crossorigin="anonymous"></script>
+    
+    <!-- Link to my style sheet-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  
+  </head>
+
+  <body>
+
+    <!-- Nav bar from Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+      <a class="navbar-brand" href="#">Camila</a>
+
+      <!-- button class is for listing the nav-items inside a button in small screens -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- This div sets atributes to collapse the nav-items list when in a small screens -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>         
+        </ul>              
+      </div>
+
+      <!-- Add icons to the right of the navbar with links to social media and contact page -->
+      <form class="navbar-nav justify-content-end">
+        <a class="nav-link fab fa-linkedin" alt="linkedin icon" href="https://www.linkedin.com/in/camila-alves-meyer/"></a>
+        <a class="nav-link fas fa-envelope" alt="envelope icon" href="contact.html"></a>
+      </form>
+    </nav>
+      
+    <main>
+
+      <!-- Main content stays inside a container -->
+      <section class="container">
+
+        <!-- Rows go inside containers -->
+        <div class="row">
+
+          <!-- Column has been set for a small screen "sm", size four to fit three cards side by side -->
+          <div class="col-sm-4">
+
+            <!-- Styled card from Bootstrap -->
+            <div class="card">
+              <img src="./assets/images/Horiseon.PNG" class="card-img-top" alt="Horiseon">
+              <div class="card-body">
+                <h5 class="card-title">Code Refactor</h5>
+                <p class="card-text">This was a fun project where I refactored an existing code.</p>
+                <a href="horiseonCodeRefactor.html" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+
+      <!-- Nav bar from Bootstrap that stays fixed at the bottom of the page -->
+      <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-color">
+
+        <a class="navbar-brand" href="#">Camila</a>
+        <!-- button class is for listing the nav-items inside a button in small screens -->
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- This div sets atributes to collapse the nav-items list when in a small screens -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Add icons to the right of the navbar with links to social media and contact page -->
+        <form class="navbar-nav justify-content-end">
+          <a class="nav-link fab fa-linkedin" alt="linkedin icon" href="https://www.linkedin.com/in/camila-alves-meyer/"></a>
+          <a class="nav-link fas fa-envelope" alt="envelope icon" href="contact.html"></a>
+        </form>
+      </nav>
+    </footer>
+  </body>
+</html>
