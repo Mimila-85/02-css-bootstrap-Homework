@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <!-- meta tag to ensure things scale correctly across devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Camila</title>
+
+    <!-- Link to Bootstrap style sheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- Link to favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/images/Camila_favicon.png">
+
+    <!-- Link to Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Kurale&display=swap" rel="stylesheet">
+
+    <!-- Link to Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/402fd511ff.js" crossorigin="anonymous"></script>
+    
+    <!-- Link to my style sheet-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  
+  </head>
+
+  <body>
+
+    <!-- Nav bar from Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+      <a class="navbar-brand" href="#">Camila</a>
+      
+      <!-- button class is for listing the nav-items inside a button in small screens -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- This div sets atributes to collapse the nav-items list when in a small screens -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Add icons to the right of the navbar with links to social media and contact page -->
+      <form class="navbar-nav justify-content-end">
+        <a class="nav-link fab fa-linkedin" alt="linkedin icon" href="https://www.linkedin.com/in/camila-alves-meyer/"></a>
+        <a class="nav-link fas fa-envelope" alt="envelope icon" href="contact.html"></a>
+      </form>
+    </nav>
+    
+    <main>
+
+      <!-- Main content stays inside a container -->
+      <form class="container">
+
+        <!-- Rows go inside containers -->
+        <div class="row">
+
+          <!-- First column takes full width, 12 areas. Column has been set for a small screen "sm" -->
+          <div class="col-sm-12">
+            <header class="page header">
+              <h1>Contact Me</h1>
+            </header>
+          </div> <!-- close div "col-sm-12" -->
+        </div> <!-- close div "row" -->
+
+        <div class="row">
+          <div class="col-sm-3">
+              <img src="assets/images/professional.jpg" alt="Camila Alves Meyer" class="img-thumbnail rounded-circle border-primary">
+          </div> <!-- close div "col-sm-3" -->
+
+          <!-- Contact form from Bootstrap -->
+          <div class="col-sm-9">
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First name">
+              </div> <!-- close div "col-sm-6" -->
+
+              <div class="form-group col-sm-6">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last name">
+              </div> <!-- close div "col-sm-6" -->
+            </div> <!-- close div "form-row" -->
+
+            <div class="form-group">
+              <label for="emailaddress">Email address</label>
+              <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+            </div> <!-- close div "form-group" -->
+           
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div> <!-- close div "form-group" -->
+           
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Upload Attachment</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div> <!-- close div "form-group" -->
+          </div> <!-- close div "col-sm-9" -->
+        </div> <!-- close div "row" -->
+      </form>
+    </main>
+
+    <footer>
+
+      <!-- Nav bar from Bootstrap that stays fixed at the bottom of the page -->
+      <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-color">
+        <a class="navbar-brand" href="#">Camila</a>
+        
+        <!-- button class is for listing the nav-items inside a button in small screens -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- This div sets atributes to collapse the nav-items list when in a small screens -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Add icons to the right of the navbar with links to social media and contact page -->
+        <form class="navbar-nav justify-content-end">
+          <a class="nav-link fab fa-linkedin" alt="linkedin icon" href="https://www.linkedin.com/in/camila-alves-meyer/"></a>
+          <a class="nav-link fas fa-envelope" alt="envelope icon" href="contact.html"></a>
+        </form>
+      </nav>
+    </footer>
+  </body>
+</html>
