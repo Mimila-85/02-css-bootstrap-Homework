@@ -2,77 +2,43 @@
 <html lang="en-us">
 
   <head>
-
     <meta charset="UTF-8">
-
     <!-- meta tag to ensure things scale correctly across devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Camila</title>
-
     <!-- Link to Bootstrap style sheet-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
     <!-- Link to favicon-->
     <link rel="icon" type="image/x-icon" href="./assets/images/Camila_favicon.png">
-
     <!-- Link to Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Kurale&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Didact+Gothic&family=Kurale&display=swap" rel="stylesheet">
     <!-- Link to Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/402fd511ff.js" crossorigin="anonymous"></script>
-    
+    <script src="https://kit.fontawesome.com/402fd511ff.js" crossorigin="anonymous"></script>    
     <!-- Link to my style sheet-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  
   </head>
 
-  <body>
-
-    <!-- Nav bar from Bootstrap -->
+  <body id="portfolio">
+    <!-- Nav bar from Bootstrap, content built at js -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-color nav-head">
-      <a class="navbar-brand" href="#">Camila</a>
-
-      <!-- button class is for listing the nav-items inside a button in small screens -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- This div sets atributes to collapse the nav-items list when in a small screens -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>         
-        </ul>              
-      </div>
-
-      <!-- Add icons to the right of the navbar with links to social media and contact page -->
-      <form class="navbar-nav justify-content-end">
-        <a class="nav-link fab fa-linkedin" href="https://www.linkedin.com/in/camila-alves-meyer/"></a>
-        <a class="nav-link fas fa-envelope" href="contact.html"></a>
-      </form>
     </nav>
       
     <main>
-
       <!-- Main content stays inside a container -->
       <div class="container">
-
         <!-- Rows go inside containers -->
         <div class="row row-cols-1 row-cols-sm-3">
           <div class="col mb-4">
+            <!-- content built inside cards  -->
             <div class="card h-100">
               <img src="./assets/images/nationalParks.gif" class="card-img-top" alt="Gif Weather Dashboard">
               <div class="card-body">
-                <h5 class="card-title">National Parks</h5>
-                <p class="card-text">This application allows the user to search for National Parks by state. Selecting a park by clicking on its button will provide further information about the park, including alerts, campgrounds, and activities for the park. The app will also generate a 5-day forecast for the city where the park is located.
+                <h4 class="card-title">National Parks</h4>
+                <p class="card-text">This application allows the user to search for National Parks by state. 
+                <br>
+                <br>
+                  This was a group project where originally I was responsible only for the javaScript and API portion; however, I have redesigned the CSS style sheet to improve it looks.
                   <br>
                   <br>
                   Do you love the outdoors? Start your search now at the Live Page.
@@ -80,17 +46,21 @@
                   <br>
                   Check usage information at my GitHub ReadMe.
                 </p>                
-                <a href="https://mimila-85.github.io/National-Park/" class="btn btn-primary">Live Page</a>
-                <a href="https://github.com/Mimila-85/National-Park" class="btn btn-primary">GitHub Repo</a>                
+                <a href="https://mimila-85.github.io/National-Park/" class="btn btnPortfolio">Live Page</a>
+                <a href="https://github.com/Mimila-85/National-Park" class="btn btnPortfolio">GitHub Repo</a>                
               </div>
             </div>
           </div>
+          <!-- New card starts here  -->
           <div class="col mb-4">
             <div class="card h-100">
               <img src="./assets/images/weatherDashboard.gif" class="card-img-top" alt="Gif Weather Dashboard">
               <div class="card-body">
-                <h5 class="card-title">Weather Dashboard</h5>
-                <p class="card-text">This application allows the user to search by city name to find out the current weather and the five-day forecast for that city. The current weather information includes the city name, date, icon representing the weather, temperature, humidity, wind speed and color coded UV index.
+                <h4 class="card-title">Weather Dashboard</h4>
+                <p class="card-text">This application allows the user to search by city name to find out the current weather and the five-day forecast for that city.
+                  <br>
+                  <br>
+                  I have designed it from scratch creating a html, css, javaScript, and it uses API’s to collect the weather information.                  
                   <br>
                   <br>
                   Check the weather now at the Live Page.
@@ -98,17 +68,21 @@
                   <br>
                   Check usage information at my GitHub ReadMe.
                 </p>                
-                <a href="https://mimila-85.github.io/06-Homework-Weather-Dashboard/" class="btn btn-primary">Live Page</a>
-                <a href="https://github.com/Mimila-85/06-Homework-Weather-Dashboard" class="btn btn-primary">GitHub Repo</a>                
+                <a href="https://mimila-85.github.io/Weather-Dashboard/" class="btn btnPortfolio">Live Page</a>
+                <a href="https://github.com/Mimila-85/Weather-Dashboard" class="btn btnPortfolio">GitHub Repo</a>                
               </div>
             </div>
           </div>
+          <!-- New card starts here  -->
           <div class="col mb-4">
             <div class="card h-100">
               <img src="./assets/images/dayPlanner.gif" class="card-img-top" alt="Gif Work Day Scheduler">
               <div class="card-body">
-                <h5 class="card-title">Day Planner</h5>
-                <p class="card-text">If you like to have your day organized. This application is great for you. This is a day planner set with business hours from 9am to 5pm. Helping the user to see pass, current and future tasks, as the hours passes the tasks color changes accordingly. 
+                <h4 class="card-title">Day Planner</h4>
+                <p class="card-text">This a day planner application with business hours from 9am to 5pm. Helping the user to see pass, current and future tasks, as the hours passes the tasks color changes accordingly.
+                  <br>
+                  <br>
+                  For this project I used javaScript, Moment.js, css, and html.                   
                   <br>
                   <br>
                   Start to use now at the Live Page.
@@ -116,19 +90,21 @@
                   <br>
                   Check usage information at my GitHub ReadMe.
                 </p>                
-                <a href="https://mimila-85.github.io/Day_Planner/" class="btn btn-primary">Live Page</a>
-                <a href="https://github.com/Mimila-85/Day_Planner" class="btn btn-primary">GitHub Repo</a>                
+                <a href="https://mimila-85.github.io/Day_Planner/" class="btn btnPortfolio">Live Page</a>
+                <a href="https://github.com/Mimila-85/Day_Planner" class="btn btnPortfolio">GitHub Repo</a>                
               </div>
             </div>
           </div>
+          <!-- New card starts here  -->
           <div class="col mb-4">
             <div class="card h-100">
               <img src="./assets/images/codeQuiz.gif" class="card-img-top" alt="Code Quiz First Question">
               <div class="card-body">
-                <h5 class="card-title">Code Quiz</h5>
+                <h4 class="card-title">Code Quiz</h4>
                 <p class="card-text">This Quiz application tests the users code knowledge in JavaScript. At the end of the quiz users are presented with the final score and the ability to save it.
                   <br>
-                  At any time, user can click on the link “View High Scores” to access the saved scores.
+                  <br>
+                  For this project I used javaScript, css, and html.
                   <br>
                   <br>
                   Test your knowledge at the Live Page.
@@ -136,17 +112,21 @@
                   <br>
                   Check usage information at my GitHub ReadMe.
                 </p>
-                <a href="https://mimila-85.github.io/Code-Quiz/" class="btn btn-primary">Live Page</a>
-                <a href="https://github.com/Mimila-85/Code-Quiz" class="btn btn-primary">GitHub Repo</a>
+                <a href="https://mimila-85.github.io/Code-Quiz/" class="btn btnPortfolio">Live Page</a>
+                <a href="https://github.com/Mimila-85/Code-Quiz" class="btn btnPortfolio">GitHub Repo</a>
               </div>
             </div>
           </div>
+          <!-- New card starts here  -->
           <div class="col mb-4">
             <div class="card h-100">
               <img src="./assets/images/passwordGenerator.gif" class="card-img-top" alt="Password Generator">
               <div class="card-body">
-                <h5 class="card-title">Password Generator</h5>
+                <h4 class="card-title">Password Generator</h4>
                 <p class="card-text">This application has been created to help users to generate random passwords based on criteria that they have selected by modifying starter code.
+                  <br>
+                  <br>
+                  My role on this application was solely javaScript.
                   <br>
                   <br>
                   Create a password right now at the Live Page.
@@ -154,8 +134,8 @@
                   <br>
                   Check usage information at my GitHub ReadMe.
                 </p>
-                <a href="https://mimila-85.github.io/Password-Generator/" class="btn btn-primary">Live Page</a>
-                <a href="https://github.com/Mimila-85/Password-Generator" class="btn btn-primary">GitHub Repo</a>
+                <a href="https://mimila-85.github.io/Password-Generator/" class="btn btnPortfolio">Live Page</a>
+                <a href="https://github.com/Mimila-85/Password-Generator" class="btn btnPortfolio">GitHub Repo</a>
               </div>
             </div>
           </div>
@@ -163,39 +143,15 @@
       </div>
     </main>
 
-    <footer>
-
-      <!-- Nav bar from Bootstrap that stays fixed at the bottom of the page -->
-      <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-color nav-foot">
-
-        <a class="navbar-brand" href="#">Camila</a>
-        <!-- button class is for listing the nav-items inside a button in small screens -->
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- This div sets atributes to collapse the nav-items list when in a small screens -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Add icons to the right of the navbar with links to social media and contact page -->
-        <form class="navbar-nav justify-content-end">
-          <a class="nav-link fab fa-linkedin" href="https://www.linkedin.com/in/camila-alves-meyer/"></a>
-          <a class="nav-link fas fa-envelope" href="contact.html"></a>
-        </form>
-      </nav>
-    </footer>
+    <!-- Creator of the background image -->
+    <span id="imageCredit">Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/photos/1LLh8k2_YFk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+    <!-- Footer content built in js  -->
+    <footer></footer>
+    <!-- jQuery link  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+    </script>
+    <!-- javaScript link  -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
