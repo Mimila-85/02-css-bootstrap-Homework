@@ -1,27 +1,122 @@
 /* Change entire page font color and font family */
 * {
-    color: rgb(41, 156, 147); 
-    font-family: 'Coiny', cursive;
-    
+    color: #e1f5fe; 
+    font-family: 'Coiny', cursive;    
 }
-
+/* Settings to work with sticky foot and background image */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+/* Settings to work with sticky foot  */
+main {
+flex: 1 0 auto;
+margin-bottom: 50px;
+}
+/* Add margin to the bottom of the navBar on the top of the page */
+.nav-head{
+    margin-bottom: 30px;
+}
 /* Change nav bar backgroung color */
 .bg-color {
-   background-color: rgb(35, 185, 173);
+   background-color:#0277bd;
 }
-
 /* Change the listed properties to all p tags */
 p {
     line-height: 30px;
     font-size: 20px;
-    font-family: 'Kurale', serif; 
-    color: rgb(41, 156, 147); 
+    font-family: 'Didact Gothic', sans-serif;
+}
+.camilaImages {
+    /* Center the thumbnail image to the column, more noticeable in small screens */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+/* Change properties for the p tag with this class */
+.pAboutMe {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #e1f5fe;
+    background-color: rgba(1, 88, 155, 0.8);
+}
+/* Change the span on the About Me section with this class */
+.dev {
+    color:#ef9a9a;
+}
+/* Change properties for the div tag with this class */
+.pContacMe {
+    background-color: #004d406e;
+    position: relative;
+    text-align: center;
+    padding: 35px 0;
+}
+/* Place a background picture to the about me page  */
+#aboutMe {
+    background-image: url(../images/_DSC3399.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Place a background picture to the portfolio page  */
+#portfolio{
+    background-image: url(../images/markus-spiske-Fa0pTKuoDVY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Place a background picture to the contact page  */
+#contact {
+    background-image: url(../images/DSC_4576.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-/* Set dimension, padding, and margin for the picture (Horiseon portifolio page) with this class */
-.img-port {
-    height: 250px;
-    width: 325px;
-    padding: 10px;
-    margin-top: 10px;
+/* Center the thumbnail image to the column, more noticeable in small screens */
+.img-thumbnail{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
 }
+/* Set the card body background color  */
+.card-body {
+    background-color: rgba(0, 0, 0);
+}
+/* Set font color and background color to the cards buttons */
+.btnPortfolio {
+    background-color: #4dd0e1;
+    color: black;
+}
+/* Add the properties to the image credit text  */
+#imageCredit {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #e1f5fe;
+}
+/* Set margins to the icons on the contact page  */
+.icon {
+    margin-top: 10px;
+    margin-right: 30px;
+}
+/* Properties for the sticky foot */
+.nav-foot {
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: -16px;
+    background-color:#263238c2;
+    bottom: 0px;
+}
+/* add padding to the icons in the foot */
+ .iFoot{
+     padding: 10px;
+ }
