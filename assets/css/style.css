@@ -57,7 +57,7 @@ p {
 }
 /* Place a background picture to the about me page  */
 #aboutMe {
-    background-image: url(../images/_DSC3399.jpg);
+    background-image: url(../images/DSC3399.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
