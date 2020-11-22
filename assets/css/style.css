@@ -93,6 +93,12 @@ p {
 .card-body {
     background-color: rgba(0, 0, 0);
 }
+/* Limit the card text height */
+.card-text {
+    height: 300px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
 /* Set font color and background color to the cards buttons */
 .btnPortfolio {
     background-color: #4dd0e1;
