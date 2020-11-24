@@ -71,6 +71,16 @@ p {
     background-size: cover;
     position: relative;
 }
+/* Shade the background */
+#portfolio::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 /* Place a background picture to the contact page  */
 #contact {
     background-image: url(../images/DSC_4576.jpg);
@@ -89,25 +99,47 @@ p {
     height: 200px;
     width: 200px;
 }
-/* Set the card body background color  */
-.card-body {
+/* Set the card background color  */
+.card {
     background-color: rgba(0, 0, 0);
+}
+/* Modify bootstrap padding */
+.card-body {
+    padding: 10px;
+}
+.card-title {
+    height: 60px;
+    text-align: center;
 }
 /* Limit the card text height */
 .card-text {
     height: 300px;
     overflow-y: auto;
     padding-right: 5px;
+    text-align: justify;
+}
+/* Centralize the button */
+.divBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Set font color and background color to the cards buttons */
 .btnPortfolio {
     background-color: #4dd0e1;
     color: black;
+    width: fit-content;
+    margin: 0px 5px 10px 5px;
+}
+/* Change button color when mouse hover the button */
+.btnPortfolio:hover {
+    background-color: #4dd0e157;
 }
 /* Add the properties to the image credit text  */
 #imageCredit {
     font-family: 'Didact Gothic', sans-serif;
-    color: #e1f5fe;
+    font-weight: bolder;
+    color: white;
 }
 /* Set margins to the icons on the contact page  */
 .icon {
