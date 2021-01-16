@@ -99,6 +99,15 @@ p {
     height: 200px;
     width: 200px;
 }
+/* Center text for Skill icon list */
+.skills{
+    text-align: center;
+    background-color: rgba(1, 88, 155, 0.8);
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    padding-top: 10px;
+}
 /* Set the card background color  */
 .card {
     background-color: rgba(0, 0, 0);
